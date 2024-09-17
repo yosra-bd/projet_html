@@ -2,60 +2,45 @@
 <html>
     <head>
         <title>projet html!</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#resume">resume</a></li>
-                <li><a href="#work">work</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
+        <nav class="navig">
+            
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#resume">resume</a>
+                <a href="#work">work</a>
+                <a href="#contact">contact</a>
+            
         </nav>
-        <br><br><br><br /><br />
-        <img src="tttt.jpg" alt="recrutement">
-        <section>
-            <h1>about</h1>
+        <img src="work.jpeg" alt="recrutement" class="homeimg">
+        <section class="about">
+            <h1>ABOUT</h1>
             <form>
                 <a name="about"></a>
-                <label>name :</label>
+                <label>Name :</label>
                 <input type="text" name="first name" placeholder="type your first name here" />
-                <br /><br /><br />
-                <label>last name :</label>
+                <br /><br />
+                <label>Last name :</label>
                 <input type="text" name="last name" placeholder="type your last name here" />
-                <br><br><br>
-                <label>age :</label>
+                <br><br>
+                <label>Age :</label>
                 <input type="number" name="age" />
-                <br /><br /><br />
-                <label>gender :</label>
+                <br /><br />
+                <label>Gender :</label>
                 <select>
                     <option>female</option>
                     <option>male</option>
+                    <br><br><br>
                 </select>
             </form>
         </section>
-        <br><br><br><br /><br />
-        <section>
-            <h1>work</h1>
+        <img src="1.jpeg" alt="about_you">
+        <section class="resume">
+            <h1>RESUME</h1><a name="resume"></a>
             <form>
-                <a name="work"></a>
-                <label>experience :</label>
-                <input type="text" name="work experience" placeholder="type your pervious company" />
-                <br /><br /><br />
-                <label>start date :</label>
-                <input type="date" name="start work" />
-                <br /><br /><br />
-                <label>wrok description :</label>
-                <textarea name="work task" cols="40" rows="6">state your pervious tasks</textarea>
-                <br /><br /><br />
-            </form>
-        </section>
-        <br><br><br><br /><br />
-        <section>
-            <h1>resume</h1><a name="resume"></a>
-            <form>
-                <label>degree :</label>
+                <label>Degree :</label>
                 <select>
                     <option>bac</option>
                     <option>bac +2 BTS </option>
@@ -63,24 +48,39 @@
                     <option>bac +5</option>
                 </select>
                 <br /><br /><br />
-                <label>institute :</label>
+                <label>Institute :</label>
                 <input type="text" name="institute" />
                 <br /><br /><br />
-                
             </form>
         </section>
-        <br><br><br><br /><br>
-        <section>
-            <h1>contact</h1><a name="contact"></a>
+        <img src="2.jpeg" alt="resume">
+        <section class="work">
+            <h1>WORK</h1>
             <form>
-                <label>phone :</label>
-                <input type="number" name="phone number" maxlength="8">
-                <br><br><br>
+                <a name="work"></a>
+                <label>Experience :</label>
+                <input type="text" name="work experience" placeholder="type your pervious company" />
+                <br /><br /><br />
+                <label>Start date :</label>
+                <input type="date" name="start work" />
+                <br /><br /><br />
+                <label>Work description :</label>
+                <textarea name="work task" cols="40" rows="6">state your pervious tasks</textarea>
+                <br /><br /><br />
+            </form>
+        </section>
+       <img src="3.jpeg" alt="work">
+        <section class="contact">
+            <h1>CONTACT</h1><a name="contact"></a>
+            <form>
+                <label>Phone :</label>
+                <input type="number" name="phone number" size="8">
+               <br><br>
                 <label>e-mail :</label>
                 <input type="text" name="e-mail" placeholder="xyz@gmail.com">
             </form>
         </section>
-        <br><br><br><br><br>
+        <img src="4.jpeg" alt="contact">
         <footer>
             <p>for more information u can directly contact us by clicking on the link down here</p>
             <a href="gomycode.com">gomycode.com</a>
