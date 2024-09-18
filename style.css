@@ -7,6 +7,21 @@
     text-align: center;
     padding: 15px;
 }
+
+.navig a {
+    background-color: rgb(150, 135, 135);
+    margin-right: 6px;
+    border-radius: 7px;
+    padding: 15px;
+}
+.navig a:hover {
+    background-color: black;
+    color: white;
+}
+a:link, a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
@@ -36,4 +51,6 @@ img {
 footer {
     background-color: black;
     color: white;
+    margin: 0;
+    border: none;
 }
