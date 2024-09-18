@@ -8,17 +8,17 @@
     padding: 15px;
 }
 
-.navig a {
+.navig a, .btn {
     background-color: rgb(150, 135, 135);
     margin-right: 6px;
     border-radius: 7px;
     padding: 15px;
 }
-.navig a:hover {
+.navig a:hover, .btn:hover {
     background-color: black;
     color: white;
 }
-a:link, a:visited {
+a:link, a:visited, .btn {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
